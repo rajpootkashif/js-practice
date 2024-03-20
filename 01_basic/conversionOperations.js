@@ -64,9 +64,17 @@ let fullName = first + last
 let a = 7;
 let b = a++;
 
-console.log(a);
+// console.log(a);
 
 let c = 3;
 let d = ++c
 
-console.log(c , d);
+// console.log(c , d);
+
+// let myName = true
+// let newName = myName++
+// console.log(myName , newName);
+
+let myName = "kashif "
+let newName = ++myName
+console.log(myName, newName);
